@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class crc {
+public class crc{
 
     public static void main(String args[]) {
 
