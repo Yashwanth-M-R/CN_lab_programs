@@ -19,7 +19,7 @@ public class leaky_bucket
 		for(int i=1;i<=n;i++){
 		    a[i] = sc.nextInt();
 		}
-		System.out.println("clock\t packet size\t accept\t sent\t remaining\t");
+		System.out.println("clock"+"\t"+"size"+"\t"+"accept"+"\t"+"sent"+"\t"+"remaining\t");
 		for(int i=1;i<=n;i++){
 		    if(a[i]!=0){
 		        if(a[i]+rem>cap){
