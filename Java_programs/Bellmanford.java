@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class BellmanFord 
+public class Bellmanford 
 {
 	int d[],noofvertices;
-	public BellmanFord(int noofvertices) 
+	public Bellmanford(int noofvertices) 
 	{
 		this.noofvertices = noofvertices;
 		d = new int[noofvertices + 1];
@@ -32,7 +32,7 @@ public class BellmanFord
 		
 		System.out.println("Enter src vertex:");		
 		source = s.nextInt();
-		BellmanFord b = new BellmanFord(noofvertices);
+		Bellmanford b = new Bellmanford(noofvertices);
 		b.bellmanFordeval(source,a);
 	}
 	
